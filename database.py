@@ -33,7 +33,7 @@ class Database:
             c.execute('SELECT used FROM keys WHERE key = ?', (key,))
             row = c.fetchone()
             if row:
-                return not row[0]  # Return True if the key is not used
+                return not row[0]
             return False
 
     def use_key(self, key):
