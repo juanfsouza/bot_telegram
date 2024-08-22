@@ -1,6 +1,5 @@
 import sqlite3
 
-# Substitua pelo caminho correto do seu banco de dados
 db_path = 'keys.db'
 
 def list_keys():
